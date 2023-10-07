@@ -1,1 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');*{margin:0;padding:0;box-sizing:border-box;}body{font-family:'Poppins',sans-serif;}a{color:#0f0fef;text-decoration:none;}a:hover{text-decoration:underline;}.container{width:100%;max-width:1080px;margin:0 auto;}.header{height:250px;width:auto;background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://mtms-programming-club.netlify.app/background.jpg);background-size:cover;background-position:top center;display:flex;justify-content:center;align-items:center;margin:25px;border-radius:10px;}.header h1{color:#ffffff;font-size:48px;}.info{margin:25px;padding:25px;border-radius:10px;box-shadow:0px 0px 10px 0px #cccccc;}.info p{color:#888888;}.main{display:flex;margin:25px;}.upcoming{width:25%;height:250px;border:1px solid #dddddd;border-radius:10px;padding:15px;margin-right:20px;}.upcoming h3{font-size:16px;margin-bottom:10px;}.upcoming p{color:#333333;font-size:14px;}.upcoming p.due{color:#888888;font-size:12px;}.main__cards{width:75%;}.card{width:auto;border:1px solid #dddddd;border-radius:10px;padding:20px;}.card h2{font-size:20px;margin-bottom:10px;}.card p{font-size:14px;}.card:not(:first-child){margin-top:20px;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: #0f0fef;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 250px;
+	width: auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(https://mtms-programming-club.netlify.app/background.jpg);
+	background-size: cover;
+	background-position: top center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px;
+	border-radius: 10px;
+}
+
+.header h1 {
+	color: #ffffff;
+	font-size: 48px;
+}
+
+.info {
+	margin: 25px;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #cccccc;
+}
+
+.info p {
+	color: #888888;
+}
+
+.main {
+	display: flex;
+	margin: 25px;
+}
+
+.upcoming {
+	width: 25%;
+	height: 250px;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	padding: 15px;
+	margin-right: 20px;
+}
+
+.upcoming h3 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.upcoming p {
+	color: #333333;
+	font-size: 14px;
+}
+
+.upcoming p.due {
+	color: #888888;
+	font-size: 12px;
+}
+
+.main__cards {
+	width: 75%;
+}
+
+.main__cards h1 {
+	display: none;
+}
+
+.card {
+	width: auto;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.card h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 14px;
+}
+
+.card:not(:first-child) {
+	margin-top: 20px;
+}
+
+@media (max-width: 390px) {
+	.header {
+		margin: 0;
+		border-radius: 0;
+		height: 150px;
+	}
+
+	.header h1 {
+		font-size: 32px;
+	}
+
+	.info {
+		margin: 0;
+		border-radius: 0;
+		box-shadow: 0px 0px 0px 0px transparent;
+		background-color: #f5f5f5;
+		padding: 20px;
+	}
+
+	.main {
+		flex-direction: column;
+		margin: 15px;
+	}
+
+	.upcoming {
+		height: 90px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.main__cards {
+		width: 100%;
+	}
+
+	.main__cards h1 {
+		display: block;
+		font-size: 20px;
+		border-bottom: 1px solid #dddddd;
+		padding-bottom: 5px;
+	}
+}
