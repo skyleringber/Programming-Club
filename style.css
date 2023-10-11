@@ -27,8 +27,7 @@ a:hover {
 .header {
 	height: 250px;
 	width: auto;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url(https://mtms-programming-club.netlify.app/background.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://mtms-programming-club.netlify.app/background.jpg);
 	background-size: cover;
 	background-position: top center;
 	display: flex;
@@ -96,6 +95,7 @@ a:hover {
 	border: 1px solid #dddddd;
 	border-radius: 10px;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .card h2 {
@@ -106,10 +106,6 @@ a:hover {
 .card p {
 	font-size: 14px;
 }
-
-/* .card:not(:first-child) {
-	margin-top: 20px;
-} */
 
 @media (max-width: 390px) {
 	.header {
