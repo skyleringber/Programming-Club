@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 * {
 	margin: 0;
 	padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -27,7 +27,8 @@ a:hover {
 .header {
 	height: 250px;
 	width: auto;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://mtms-programming-club.netlify.app/background.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(https://mtms-programming-club.netlify.app/background.jpg);
 	background-size: cover;
 	background-position: top center;
 	display: flex;
